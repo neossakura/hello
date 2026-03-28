@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Кирилл — Junior Frontend Developer</title>
+  <meta
+    name="description"
+    content="Портфолио Кирилла — junior frontend developer. Современные адаптивные интерфейсы, аккуратный код, React, JavaScript."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-glow page-glow-1"></div>
+  <div class="page-glow page-glow-2"></div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">
+        <span class="logo__dot"></span>
+        Кирилл
+      </a>
+
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#about">Обо мне</a>
+        <a href="#education">Образование</a>
+        <a href="#projects">Проекты</a>
+        <a href="#skills">Навыки</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="hero">
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <div class="eyebrow">Open to work · Junior Frontend Developer</div>
+
+          <h1 class="hero__title">
+            Привет, приятно познакомиться!
+            <span>:)</span>
+          </h1>
+
+          <p class="hero__text">
+            Я junior frontend-разработчик с профильным образованием в сфере информационных технологий.
+            Создаю адаптивные интерфейсы на HTML, CSS и JavaScript, а также уверенно работаю с Python
+            для разработки приложений и решения прикладных задач.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">Смотреть проекты</a>
+            <a href="#contact" class="btn btn--secondary">Связаться</a>
+          </div>
+
+          <ul class="hero__metrics">
+            <li>
+              <strong>HTML / CSS</strong>
+              <span>Аккуратная вёрстка и адаптив</span>
+            </li>
+            <li>
+              <strong>JavaScript & React</strong>
+              <span>Интерактивность и логика интерфейса</span>
+            </li>
+            <li>
+              <strong>Python</strong>
+              <span>Разработка приложений и прикладных решений</span>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="hero-card reveal reveal-delay-1">
+          <div class="hero-card__top">
+            <div class="avatar">K</div>
+            <div>
+              <div class="hero-card__name">Кирилл Скарлат</div>
+              <div class="hero-card__role">Junior Frontend Developer</div>
+            </div>
+          </div>
+
+          <div class="hero-card__list">
+            <div class="hero-card__item">
+              <span>Возраст</span>
+              <strong>21</strong>
+            </div>
+            <div class="hero-card__item">
+              <span>Город</span>
+              <strong>Москва</strong>
+            </div>
+            <div class="hero-card__item">
+               <span>Языки</span>
+              <strong>Русский, Английский (B2)</strong>
+            </div>
+            <div class="hero-card__item">
+              <span>Формат</span>
+              <strong>Remote / Office</strong>
+            </div>
+            <div class="hero-card__item">
+              <span>Основной стек</span>
+              <strong>HTML, CSS, JavaScript, Python</strong>
+            </div>
+            <div class="hero-card__item">
+              <span>Цель</span>
+              <strong>Первая работа в frontend</strong>
+            </div>
+          </div>
+
+          <div class="hero-card__note">
+            Ищу команду, где смогу расти как разработчик и участвовать в реальных проектах.
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-label">Обо мне</div>
+            <h2 class="section-title">Потенциал, дисциплина и внимание к качеству</h2>
+          </div>
+          <p class="section-subtitle">
+            Мне важно делать интерфейсы, которые выглядят уверенно, работают стабильно и удобны для пользователя.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="glass-card reveal">
+            <h3>Мой подход</h3>
+            <p>
+              Мне нравится frontend за сочетание логики и визуальной части.
+              Я стараюсь делать интерфейсы, которые выглядят современно,
+              работают быстро и остаются понятными в поддержке.
+            </p>
+          </article>
+
+          <article class="glass-card reveal reveal-delay-1">
+            <h3>Что для меня важно</h3>
+            <p>
+              Чистая структура проекта, адаптивность, понятные компоненты,
+              хорошая типографика, внимательность к деталям и постоянное
+              улучшение качества кода.
+            </p>
+          </article>
+
+          <article class="glass-card reveal reveal-delay-2">
+            <h3>Что я ищу</h3>
+            <p>
+              Ищу первую позицию frontend-разработчика, где смогу развиваться
+              в реальной команде, получать практический опыт и приносить пользу
+              продукту с первых месяцев работы.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-label">Образование</div>
+            <h2 class="section-title">Профильная база в IT</h2>
+          </div>
+          <p class="section-subtitle">
+            Обучение по профильным направлениям, связанным с информационными системами и программированием.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-top">
+              <strong>Красногорский колледж</strong>
+              <span class="muted">2020 — 2024</span>
+            </div>
+            <div class="muted">
+              Среднее профессиональное образование — Информационные системы и программирование.
+            </div>
+          </article>
+
+          <article class="timeline-item reveal reveal-delay-1">
+            <div class="timeline-top">
+              <strong>Московский технический университет связи и информатики</strong>
+              <span class="muted">2024 — 2028</span>
+            </div>
+            <div class="muted">
+              Высшее образование — Информационные системы и технологии. (Заочно)
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-label">Проекты</div>
+            <h2 class="section-title">Работы, которые показывают мой уровень</h2>
+          </div>
+          <p class="section-subtitle">
+            Мои работы для портфолио. Рабочие демо-версии с открытым кодом.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT 1 -->
+          <article class="project-card reveal">
+            <div class="project-card__image">
+              <div class="mockup">
+                <div class="mockup__bar">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mockup__screen">
+                  <img src="images/landing-preview.png" alt="FlowAI" />
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card__body">
+              <div class="project-card__meta">Frontend Project</div>
+              <h3>FlowAI</h3>
+              <p>Современный адаптивный лендинг с акцентом на типографику и анимации.</p>
+
+              <ul class="tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="project-card__links">
+                <a href="https://github.com/neossakura/flowai-landing">GitHub</a>
+                <a href="https://neossakura.github.io/flowai-landing/">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 -->
+          <article class="project-card reveal reveal-delay-1">
+            <div class="project-card__image">
+              <div class="mockup">
+                <div class="mockup__bar">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mockup__screen">
+                  <img src="images/todo-preview.png" alt="TaskFlow" />
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card__body">
+              <div class="project-card__meta">Frontend Project</div>
+              <h3>TaskFlow</h3>
+              <p>Приложение для управления задачами с фильтрацией и сохранением состояния.</p>
+
+              <ul class="tags">
+                <li>JavaScript</li>
+                <li>LocalStorage</li>
+              </ul>
+
+              <div class="project-card__links">
+                <a href="https://github.com/neossakura/taskflow-one">GitHub</a>
+                <a href="https://neossakura.github.io/taskflow-one/">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+            <!-- PROJECT 3 -->
+            <article class="project-card reveal reveal-delay-2">
+              <div class="project-card__image">
+                <div class="mockup">
+                  <div class="mockup__bar">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="mockup__screen">
+                    <img src="images/3dcalc-preview.png" alt="3D-Calc" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-card__body">
+                <div class="project-card__meta project-card__meta--fullstack">Full-stack Project</div>
+                <h3>3D Calc</h3>
+                <p>Калькулятор для подсчета стоимости печати исходя из 3D модели.  (В разработке)</p>
+
+                <ul class="tags">
+                  <li>JavaScript</li>
+                  <li>Python</li>
+                  <li>REST API</li>
+                </ul>
+
+              </div>
+            </article>
+
+                </div>
+              </div>
+            </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-label">Навыки</div>
+            <h2 class="section-title">Технологии и инструменты</h2>
+          </div>
+          <p class="section-subtitle">
+            Основной фокус — frontend-разработка и создание приложений.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-box reveal">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Flexbox / Grid</li>
+              <li>JavaScript (ES6+)</li>
+              <li>React</li>
+            </ul>
+          </article>
+
+          <article class="skill-box reveal reveal-delay-1">
+            <h3>Инструменты и технологии</h3>
+            <ul>
+              <li>Git / GitHub</li>
+              <li>VS Code</li>
+              <li>Figma</li>
+              <li>Chrome DevTools</li>
+              <li>Python</li>
+            </ul>
+          </article>
+
+          <article class="skill-box reveal reveal-delay-2">
+            <h3>Дополнительно</h3>
+            <ul>
+              <li>Тестирование и отладка кода</li>
+              <li>Адаптивная вёрстка</li>
+              <li>Вёрстка по дизайн-макетам</li>
+              <li>Внимание к деталям</li>
+              <li>Быстрое обучение</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-box reveal">
+          <div class="contact-box__content">
+            <div class="section-label">Контакты</div>
+            <h2 class="section-title">Готов обсудить стажировку, junior-позицию или тестовое задание</h2>
+            <p class="section-subtitle">
+              Открыт к новым возможностям и готов к работе над реальными задачами в команде.
+            </p>
+          </div>
+
+          <div class="contact-box__actions">
+            <a class="btn btn--primary" href="mailto:neossakura@gmail.com">Email</a>
+            <a class="btn btn--secondary" href="https://github.com/neossakura" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="btn btn--secondary" href="https://t.me/glamrockk" target="_blank" rel="noopener noreferrer">Telegram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© 2026 Кирилл Скарлат.</p>
+      <a href="#hero">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
